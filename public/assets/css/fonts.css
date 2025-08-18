@@ -1,0 +1,50 @@
+/* Flaticon */
+@font-face {
+  font-family: 'Flaticon';
+  src: url('../font/flaticon7c56.eot');
+  src: url('../font/flaticon7c56.eot?#iefix') format('embedded-opentype'),
+       url('../font/flaticon7c56.woff2') format('woff2'),
+       url('../font/flaticon7c56.woff') format('woff'),
+       url('../font/flaticon7c56.ttf') format('truetype'),
+       url('../font/flaticon7c56.svg#Flaticon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* FontAwesome */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font/fontawesome-webfont3e6e.eot');
+  src: url('../font/fontawesome-webfont3e6e.eot?#iefix') format('embedded-opentype'),
+       url('../font/fontawesome-webfont3e6e.woff2') format('woff2'),
+       url('../font/fontawesome-webfont3e6e.woff') format('woff'),
+       url('../font/fontawesome-webfont3e6e.ttf') format('truetype'),
+       url('../font/fontawesome-webfont3e6e.svg#FontAwesome') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* PBM Infotech Base Icons */
+@font-face {
+  font-family: 'PBMBaseIcons';
+  src: url('../font/pbminfotech-base-iconsedaf.eot');
+  src: url('../font/pbminfotech-base-iconsedaf.eot?#iefix') format('embedded-opentype'),
+       url('../font/pbminfotech-base-iconsedaf.woff2') format('woff2'),
+       url('../font/pbminfotech-base-iconsedaf.woff') format('woff'),
+       url('../font/pbminfotech-base-iconsedaf.ttf') format('truetype'),
+       url('../font/pbminfotech-base-iconsedaf.svg#PBMBaseIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Themify */
+@font-face {
+  font-family: 'Themify';
+  src: url('../font/themify9f24.eot');
+  src: url('../font/themify9f24.eot?#iefix') format('embedded-opentype'),
+       url('../font/themify9f24.woff') format('woff'),
+       url('../font/themify9f24.ttf') format('truetype'),
+       url('../font/themify9f24.svg#Themify') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
