@@ -31,21 +31,21 @@ export default function WhyChooseUs() {
                                             transform="translate(-0.29 -0.29)"
                                             fill="none"
                                             stroke="#000"
-                                            stroke-width="2"
+                                            strokeWidth="2"
                                         ></path>
                                         <path
                                             d="M22.34,1a14.67,14.67,0,0,0,0,20.75"
                                             transform="translate(-0.29 -0.29)"
                                             fill="none"
                                             stroke="#000"
-                                            stroke-width="2"
+                                            strokeWidth="2"
                                         ></path>
                                         <path
                                             d="M22.34,1,1,22.34"
                                             transform="translate(-0.29 -0.29)"
                                             fill="none"
                                             stroke="#000"
-                                            stroke-width="2"
+                                            strokeWidth="2"
                                         ></path>
                                     </svg>
                                 </span>
@@ -62,7 +62,7 @@ export default function WhyChooseUs() {
                                     <div className="pbmit-ihbox-headingicon">
                                         <div className="pbmit-ihbox-icon">
                                             <div className="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                                <i className="pbmit-xclean-icon pbmit-xclean-icon-sweeper"></i>
+                                                <img src="/assets/images/Home/AcMan.svg" alt="HVAC Technician" style={{width: '60px', height: '60px'}} />
                                             </div>
                                         </div>
                                         <div className="pbmit-ihbox-contents">
@@ -84,7 +84,7 @@ export default function WhyChooseUs() {
                                     <div className="pbmit-ihbox-headingicon">
                                         <div className="pbmit-ihbox-icon">
                                             <div className="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                                <i className="pbmit-xclean-icon pbmit-xclean-icon-duster"></i>
+                                                <img src="/assets/images/Home/AcMan.svg" alt="HVAC Technician" style={{width: '60px', height: '60px'}} />
                                             </div>
                                         </div>
                                         <div className="pbmit-ihbox-contents">
@@ -109,7 +109,7 @@ export default function WhyChooseUs() {
                                         <div className="pbmit-ihbox-headingicon">
                                             <div className="pbmit-ihbox-icon">
                                                 <div className="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                                    <i className="pbmit-xclean-icon pbmit-xclean-icon-scrubber"></i>
+                                                    <img src="/assets/images/Home/AcMan.svg" alt="HVAC Technician" style={{width: '60px', height: '60px'}} />
                                                 </div>
                                             </div>
                                             <div className="pbmit-ihbox-contents">
@@ -132,7 +132,7 @@ export default function WhyChooseUs() {
                                         <div className="pbmit-ihbox-headingicon">
                                             <div className="pbmit-ihbox-icon">
                                                 <div className="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                                    <i className="pbmit-xclean-icon pbmit-xclean-icon-vaccum-cleaner"></i>
+                                                    <img src="/assets/images/Home/AcMan.svg" alt="HVAC Technician" style={{width: '60px', height: '60px'}} />
                                                 </div>
                                             </div>
                                             <div className="pbmit-ihbox-contents">

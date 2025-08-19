@@ -138,7 +138,7 @@
     background-repeat: no-repeat;
 }
 .about-one-left-bg{
-	background-image: url(../images/homepage-1/bg/about-img.jpg);
+	background-image: url(../images/Home/FreeEstimate.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -378,7 +378,7 @@
 }
 .appointment-two-bg{
 	position: relative;
-	background-image: url(../images/homepage-2/bg/action-bg-img.jpg);
+	background-image: url(../images/Home/Book.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

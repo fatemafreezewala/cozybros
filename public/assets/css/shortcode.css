@@ -3550,7 +3550,7 @@ blockquote p {
 /*----------------------------------------*/
 .pbmit-title-bar-wrapper{
 	background-color: var(--pbmit-light-color);
-	background-image: url(../images/bg/titlebar-bg.jpg);
+	background-image: url(../images/Home/ContactUs.svg);
 	background-repeat: no-repeat;
     background-position: right bottom;
     background-size: cover;

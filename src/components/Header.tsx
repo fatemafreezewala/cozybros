@@ -34,14 +34,14 @@ export default function Header() {
 												</span>
 												<ul className="navigation clearfix" >
 													<li className="dropdown active">
-														<a href="index-2.html">Home</a>
-														<ul>
+														<a href="/">Home</a>
+														{/* <ul>
 															<li className="active"><a href="index-2.html">Homepage 01</a></li>
 															<li><a href="homepage-2.html">Homepage 02</a></li>
 															<li><a href="homepage-3.html">Homepage 03</a></li>
 															<li><a href="homepage-4.html">Homepage 04</a></li>
 															<li><a href="homepage-5.html">Homepage 05</a></li>
-														</ul>
+														</ul> */}
 													</li>
 													<li className="dropdown">
 														<a href="#">Pages</a>
@@ -122,7 +122,7 @@ export default function Header() {
 															<li><a href="blog-details.html">Blog Single Detail</a></li>
 														</ul>
 													</li>
-													<li><a href="contact-us.html">Contact Us</a></li>
+													<li><a href="contact-us">Contact Us</a></li>
 												</ul>
 											</div>
 										</div>

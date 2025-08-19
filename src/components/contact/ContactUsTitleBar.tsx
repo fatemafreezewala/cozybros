@@ -8,18 +8,14 @@ const ContactUsTitleBar = () => {
 				<div className="pbmit-title-bar-content-inner">
 					<div className="pbmit-tbar">
 						<div className="pbmit-tbar-inner container">
-							<h1 className="pbmit-tbar-title"> Contact Us</h1>
+							<h1 className="pbmit-tbar-title" style={{ color: 'white' }}> Contact Us</h1>
 						</div>
 					</div>
 					<div className="pbmit-breadcrumb">
 						<div className="pbmit-breadcrumb-inner">
-							<span>
-								<a title="" href="#" className="home"><span>CozyBros</span></a>
-							</span>
 							<span className="sep">
 								<i className="pbmit-base-icon-angle-right"></i>
 							</span>
-							<span><span className="post-root post post-post current-item"> Contact Us</span></span>
 						</div>
 					</div>
 				</div>

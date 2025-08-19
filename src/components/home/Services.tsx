@@ -7,7 +7,7 @@ const Services = () => {
 					<div className="swiper-wrapper">
 						<div className="swiper-slide">
 							<div className="pbmit-slider-item">
-								<div className="pbmit-slider-bg" style={{backgroundImage: "url(/assets/images/banner-slider-img/demo3-slide01.png)"}}></div>
+								<div className="pbmit-slider-bg" style={{backgroundImage: "url(/assets/images/Home/OurServices.svg)"}}></div>
 								<div className="container">
 									<div className="row">
 										<div className="col-md-12 col-lg-6"></div>
@@ -38,7 +38,7 @@ const Services = () => {
 						</div>
 						<div className="swiper-slide">
 							<div className="pbmit-slider-item">
-								<div className="pbmit-slider-bg" style={{backgroundImage: "url(/assets/images/banner-slider-img/demo3-slide02.png)"}}></div>
+								<div className="pbmit-slider-bg" style={{backgroundImage: "url(/assets/images/Home/OurServices.svg)"}}></div>
 								<div className="container">
 									<div className="row">
 										<div className="col-md-12 col-lg-6"></div>
@@ -69,7 +69,7 @@ const Services = () => {
 						</div>
 						<div className="swiper-slide">
 							<div className="pbmit-slider-item">
-								<div className="pbmit-slider-bg" style={{backgroundImage: "url(/assets/images/banner-slider-img/demo3-slide03.png)"}}></div>
+								<div className="pbmit-slider-bg" style={{backgroundImage: "url(/assets/images/Home/OurServices.svg)"}}></div>
 								<div className="container">
 									<div className="row">
 										<div className="col-md-12 col-lg-6"></div>

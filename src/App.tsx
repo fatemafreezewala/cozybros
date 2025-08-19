@@ -13,13 +13,14 @@ const App: React.FC = () => {
 
       {/* Page Routes */}
       <Routes>
-        <Route path="/index-2.html" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact-us.html" element={<Contact />} />
+        <Route path="/contact-us" element={<Contact />} />
       </Routes>
-            </div>
-      {/* Navbar */}
+
+      {/* Footer */}
 <Footer></Footer>
+            </div>
     </Router>
   );
 };
