@@ -3,7 +3,7 @@ import React from 'react'
 export default function Header() {
   return (
    	<header className="site-header header-style-1">
-			<div className="site-header-menu">
+			<div className="site-header-menu" >
 				<div className="pbmit-main-header-area pbmit-bg-color-white">
 					<div className="container-fluid">
 						<div className="pbmit-header-content d-flex justify-content-between align-items-center">

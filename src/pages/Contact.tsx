@@ -1,10 +1,11 @@
 import React from 'react';
-
+import ContactUs from '../components/contact/ContactUs';
+import ContactUsTitleBar from '../components/contact/ContactUsTitleBar';
 const Contact: React.FC = () => {
   return (
-    <div className="page contact-bg">
-      <h1>Contact Us</h1>
-      <p>Have questions? Reach out to us!</p>
+    <div className="page-content-contact">
+      <ContactUsTitleBar></ContactUsTitleBar>
+      <ContactUs></ContactUs>
     </div>
   );
 }; 

@@ -21,7 +21,7 @@ const OurStory = () => {
 										<div className="col-md-12 col-xl-6">
 											<div className="pbminfotech-ele-fid-style-1">
 												<div className="pbmit-fld-contents d-flex align-items-center">
-													<div className="pbmit-circle-outer" data-digit="85" data-fill="#fba311" data-emptyfill="" data-before="" data-after="<sup>%</sup>" data-thickness="2" data-size="125">
+													<div className="pbmit-circle-outer" data-digit="85" data-fill="#28a745" data-emptyfill="" data-before="" data-after="<sup>%</sup>" data-thickness="2" data-size="125">
 														<div className="pbmit-circle">
 															<div className="pbmit-fid-inner">
 																<span className="pbmit-fid-before"></span>
@@ -39,7 +39,7 @@ const OurStory = () => {
 										<div className="col-md-12 col-xl-6">
 											<div className="pbminfotech-ele-fid-style-1">
 												<div className="pbmit-fld-contents d-flex align-items-center">
-													<div className="pbmit-circle-outer" data-digit="70" data-fill="#fba311" data-emptyfill="" data-before="" data-after="<sup>%</sup>" data-thickness="2" data-size="125">
+													<div className="pbmit-circle-outer" data-digit="70" data-fill="#28a745" data-emptyfill="" data-before="" data-after="<sup>%</sup>" data-thickness="2" data-size="125">
 														<div className="pbmit-circle">
 															<div className="pbmit-fid-inner">
 																<span className="pbmit-fid-before"></span>
