@@ -54,7 +54,7 @@ const OurServices = () => {
           <div className="col-md-10 col-lg-8">
             <div className="pbmit-heading-subheading animation-style2">
               <h4 className="pbmit-subtitle">Our Services</h4>
-              <h2 className="pbmit-title">We work many fields to clean your surrounding area</h2>
+              <h2 className="pbmit-title">Cozy Bros specializes in customer service and installs a wide range of HVAC equipment for WNY and surrounding areas. We offer:</h2>
             </div>
           </div>
         </div>

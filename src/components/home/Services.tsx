@@ -13,8 +13,8 @@ const Services = () => {
 										<div className="col-md-12 col-lg-6"></div>
 										<div className="col-md-12 col-lg-6">
 											<div className="pbmit-slider-content">
-												<h5 className="pbmit-sub-title transform-delay-1">Needs Professional Cleaning</h5>
-												<h2 className="pbmit-title transform-left transform-delay-3">We provide the <br /> <span className="pbmit-global-color">best care </span> for <br /> your home</h2>
+												<h5 className="pbmit-sub-title transform-delay-1">Complete Comfort Starts Here</h5>
+												<h2 className="pbmit-title transform-left transform-delay-3">Keeping WNY Comfortable,  <br /> <span className="pbmit-global-color">One Home at a Time </span> <br /></h2>
 												<div className="pbmit-button transform-bottom transform-delay-4">
 													<a className="pbmit-btn pbmit-btn-global" href="services.html">
 														<span className="pbmit-button-content-wrapper">
@@ -36,7 +36,7 @@ const Services = () => {
 								</div>
 							</div>
 						</div>
-						<div className="swiper-slide">
+						{/* <div className="swiper-slide">
 							<div className="pbmit-slider-item">
 								<div className="pbmit-slider-bg" style={{backgroundImage: "url(/assets/images/Home/OurServices.svg)"}}></div>
 								<div className="container">
@@ -97,7 +97,7 @@ const Services = () => {
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>  )

@@ -9,7 +9,7 @@ const BookAppointment = () => {
             <div className="col-md-12 col-xl-8">
               <div className="pbmit-heading-subheading white-text mb-3 animation-style4">
                 <h4 className="pbmit-subtitle">Limited Period Offer</h4>
-                <h2 className="pbmit-title">Get a demo cleaning on your first booking absolutely free.</h2>
+                <h2 className="pbmit-title">First Time Customers Get a Free Heating & Cooling Inspection</h2>
               </div>
               <a className="pbmit-btn pbmit-btn-hover-white" href="contact-us.html">
                 <span className="pbmit-button-content-wrapper">

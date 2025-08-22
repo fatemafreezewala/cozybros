@@ -43,7 +43,7 @@ const Footer = () => {
 						<div className="pbmit-footer-widget-col-1 col-md-3">
 							<div className="widget">
 								<div className="textwidget">
-									<ul className="pbmit-social-links">
+									{/* <ul className="pbmit-social-links">
 										<li className="pbmit-social-li pbmit-social-facebook">
 											<a title="Facebook" href="#" target="_blank" rel="noopener">
 												<span><i className="pbmit-base-icon-facebook-f"></i></span>
@@ -64,7 +64,12 @@ const Footer = () => {
 												<span><i className="pbmit-base-icon-youtube-play"></i></span>
 											</a>
 										</li>
-									</ul>
+									</ul> */}
+									<p>In today’s economic climate, affordable pricing is key!
+									   <br></br>We got you. Honesty and integrity go a long way in
+									   this business and we are dedicated to earning your
+									   trust and giving you and your family the best
+									customer experience possible</p>
 								</div>
 							</div>
 						</div>
