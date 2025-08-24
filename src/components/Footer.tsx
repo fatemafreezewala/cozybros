@@ -1,21 +1,24 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-<footer className="site-footer pbmit-bg-color-blackish">
-			<div className="pbmit-footer-big-area">
-				<div className="container">
-					<div className="row align-items-center">
-						<div className="col-md-12 col-xl-4">
-							<div className="pbmit-footer-logo">
-								<img src="/assets/images/cozybroslogo.svg" alt=""/>
-							</div>
-						</div>
-						<div className="col-md-12 col-xl-8">
-							<form>
-								<div className="pbmit-footer-newsletter">
-									<h3 className="pbmit-footer-news-title">Book Your Free Consultation & Estimate for Furnace, AC, or Plumbing Installs </h3>
-									{/* <div className="pbmit-news-wrap">
+    <footer className='site-footer pbmit-bg-color-blackish'>
+      <div className='pbmit-footer-big-area'>
+        <div className='container'>
+          <div className='row align-items-center'>
+            <div className='col-md-12 col-xl-4'>
+              <div className='pbmit-footer-logo'>
+                <img src='/assets/images/cozy-bros-white-logo.svg' alt='' />
+              </div>
+            </div>
+            <div className='col-md-12 col-xl-8'>
+              <form>
+                <div className='pbmit-footer-newsletter'>
+                  <h3 className='pbmit-footer-news-title'>
+                    Book Your Free Consultation & Estimate for Furnace, AC, or
+                    Plumbing Installs{' '}
+                  </h3>
+                  {/* <div className="pbmit-news-wrap">
 										<input type="email" className="form-control" name="EMAIL" placeholder="Enter Your Email Address"/>
 										<button className="pbmit-btn pbmit-btn-global">
 											<span className="pbmit-button-content-wrapper">
@@ -31,19 +34,19 @@ const Footer = () => {
 											</span>
 										</button>
 									</div> */}
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div className="pbmit-footer-widget-area">
-				<div className="container">
-					<div className="row">
-						<div className="pbmit-footer-widget-col-1 col-md-3">
-							<div className="widget">
-								<div className="textwidget">
-									{/* <ul className="pbmit-social-links">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='pbmit-footer-widget-area'>
+        <div className='container'>
+          <div className='row'>
+            <div className='pbmit-footer-widget-col-1 col-md-3'>
+              <div className='widget'>
+                <div className='textwidget'>
+                  {/* <ul className="pbmit-social-links">
 										<li className="pbmit-social-li pbmit-social-facebook">
 											<a title="Facebook" href="#" target="_blank" rel="noopener">
 												<span><i className="pbmit-base-icon-facebook-f"></i></span>
@@ -65,30 +68,44 @@ const Footer = () => {
 											</a>
 										</li>
 									</ul> */}
-									<p>In today’s economic climate, affordable pricing is key!
-									   <br></br>We got you. Honesty and integrity go a long way in
-									   this business and we are dedicated to earning your
-									   trust and giving you and your family the best
-									customer experience possible</p>
-								</div>
-							</div>
-						</div>
-						<div className="pbmit-footer-widget-col-2 col-md-3">
-							<div className="widget pbmit-two-column-menu">
-								<h2 className="widget-title">Useful Link</h2>
-								<div className="textwidget">
-									<ul>
-										<li><a href="our-history.html">Home</a></li>
-										<li><a href="about-us.html">Pricing</a></li>
-										<li><a href="contact-us.html">About</a></li>
-										<li><a href="contact-us.html">Blog</a></li>
-										<li><a href="contact-us.html">Services</a></li>
-										<li><a href="contact-us.html">Contact</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						{/* <div className="pbmit-footer-widget-col-3 col-md-3">
+                  <p>
+                    In today’s economic climate, affordable pricing is key!
+                    <br></br>We got you. Honesty and integrity go a long way in
+                    this business and we are dedicated to earning your trust and
+                    giving you and your family the best customer experience
+                    possible
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='pbmit-footer-widget-col-2 col-md-3'>
+              <div className='widget pbmit-two-column-menu'>
+                <h2 className='widget-title'>Useful Link</h2>
+                <div className='textwidget'>
+                  <ul>
+                    <li>
+                      <a href='our-history.html'>Home</a>
+                    </li>
+                    <li>
+                      <a href='about-us.html'>Pricing</a>
+                    </li>
+                    <li>
+                      <a href='contact-us.html'>About</a>
+                    </li>
+                    <li>
+                      <a href='contact-us.html'>Blog</a>
+                    </li>
+                    <li>
+                      <a href='contact-us.html'>Services</a>
+                    </li>
+                    <li>
+                      <a href='contact-us.html'>Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {/* <div className="pbmit-footer-widget-col-3 col-md-3">
 							<div className="widget widget_text">
 								<h2 className="widget-title">Working Time</h2>
 								<div className="pbmit-timelist-wrapper">
@@ -106,30 +123,45 @@ const Footer = () => {
 								</div>
 							</div>
 						</div> */}
-						<div className="pbmit-footer-widget-col-4 col-md-3">
-							<aside className="widget">
-								<h2 className="widget-title">Say Hello</h2>
-								<div className="pbmit-contact-widget-lines">
-									<div className="pbmit-contact-widget-line pbmit-contact-widget-phone">+1 800 123 456 789</div>
-									<div className="pbmit-contact-widget-line pbmit-contact-widget-email"><a href="https://xclean-demo.pbminfotech.com/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="85ecebe3eac5fceaf0f7e1eae8e4ecebabe6eae8">[email&#160;protected]</a></div>
-								</div>
-							</aside>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div className="pbmit-footer-text-area">
-				<div className="container">
-					<div className="pbmit-footer-text-inner">
-						<div className="row">
-							<div className="col-md-12">
-								<div className="pbmit-footer-copyright-text-area"> Copyright © 2024 <a href="#">Xcleen</a>, All Rights Reserved.</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-        </footer>  )
-}
+            <div className='pbmit-footer-widget-col-4 col-md-3'>
+              <aside className='widget'>
+                <h2 className='widget-title'>Say Hello</h2>
+                <div className='pbmit-contact-widget-lines'>
+                  <div className='pbmit-contact-widget-line pbmit-contact-widget-phone'>
+                    +1 800 123 456 789
+                  </div>
+                  <div className='pbmit-contact-widget-line pbmit-contact-widget-email'>
+                    <a
+                      href='https://xclean-demo.pbminfotech.com/cdn-cgi/l/email-protection'
+                      className='__cf_email__'
+                      data-cfemail='85ecebe3eac5fceaf0f7e1eae8e4ecebabe6eae8'
+                    >
+                      [email&#160;protected]
+                    </a>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='pbmit-footer-text-area'>
+        <div className='container'>
+          <div className='pbmit-footer-text-inner'>
+            <div className='row'>
+              <div className='col-md-12'>
+                <div className='pbmit-footer-copyright-text-area'>
+                  {' '}
+                  Copyright © 2024 <a href='#'>CozyBros</a>, All Rights
+                  Reserved.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
