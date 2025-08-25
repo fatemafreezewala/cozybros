@@ -97,7 +97,7 @@ const Services_Content = () => {
                       <div className="pbmit-service-btn-wrapper">
                         <a
                           className="pbmit-service-btn"
-                          href="service-details.html"
+                          href="services"
                           title={service.title}
                         >
                           <span className="pbmit-button-icon">
@@ -117,7 +117,7 @@ const Services_Content = () => {
                         </a>
                       </div>
                       <h3 className="pbmit-service-title">
-                        <a href="service-details.html">{service.title}</a>
+                        <a href="services">{service.title}</a>
                       </h3>
                       <div className="pbmit-service-description">
                         <p>{service.description}</p>
