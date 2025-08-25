@@ -1,5 +1,5 @@
 
-const Services_Content = () => {
+const Services_Info = () => {
   const services = [
     {
       number: "01",
@@ -133,4 +133,4 @@ const Services_Content = () => {
   );
 };
 
-export default Services_Content;
+export default Services_Info;
