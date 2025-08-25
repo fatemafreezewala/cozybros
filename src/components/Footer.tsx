@@ -11,10 +11,10 @@ const Footer = () => {
                 <img src='/assets/images/cozy-bros-white-logo.svg' alt='' />
               </div>
             </div>
-            <div className='col-md-12 col-xl-8'>
+            <div className='col-md-12 col-xl-5'>
               <form>
                 <div className='pbmit-footer-newsletter'>
-                  <h3 className='pbmit-footer-news-title'>
+                  <h3 className='pbmit-footer-news-title' style={{fontWeight: 'normal', fontSize: '24px', color: '#ffffff', lineHeight: '1.3'}}>
                     Book Your Free Consultation & Estimate for Furnace, AC, or
                     Plumbing Installs{' '}
                   </h3>
@@ -36,6 +36,19 @@ const Footer = () => {
 									</div> */}
                 </div>
               </form>
+            </div>
+            <div className='col-md-12 col-xl-3'>
+              <div className='pbmit-header-call-us-area' style={{display: 'flex', alignItems: 'center', gap: '15px'}}>
+                <div className='pbmit-header-call-us-icon' style={{width: '60px', height: '60px', backgroundColor: '#00b894', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0}}>
+                  <img src='/assets/images/Home/Layer.svg' alt='Call Us' style={{width: '30px', height: '30px'}} />
+                </div>
+                <div className='pbmit-header-call-us-text'>
+                  <span className='pbmit-header-call-us-label' style={{fontSize: '14px', color: '#ffffff', opacity: '0.8'}}>Call Us Now</span>
+                  <div className='pbmit-header-call-us-number' style={{fontSize: '18px', fontWeight: 'bold', color: '#ffffff', marginTop: '2px'}}>
+                    +1 716-289-5986
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -69,7 +82,7 @@ const Footer = () => {
 										</li>
 									</ul> */}
                   <p>
-                    In today’s economic climate, affordable pricing is key!
+                    In today's economic climate, affordable pricing is key!
                     <br></br>We got you. Honesty and integrity go a long way in
                     this business and we are dedicated to earning your trust and
                     giving you and your family the best customer experience
@@ -80,30 +93,33 @@ const Footer = () => {
             </div>
             <div className='pbmit-footer-widget-col-2 col-md-3'>
               <div className='widget pbmit-two-column-menu'>
-                <h2 className='widget-title'>Useful Link</h2>
+                <h2 className='widget-title' style={{color: '#00b894', fontSize: '18px', marginBottom: '20px'}}>Useful Link</h2>
                 <div className='textwidget'>
-                  <ul>
-                    <li>
-                      <a href='our-history.html'>Home</a>
+                  <ul style={{listStyle: 'none', padding: 0, margin: 0}}>
+                    <li style={{marginBottom: '8px'}}>
+                      <a href='our-history.html' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Home</a>
                     </li>
-                    <li>
-                      <a href='about-us.html'>Pricing</a>
+                    <li style={{marginBottom: '8px'}}>
+                      <a href='about-us.html' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Pricing</a>
                     </li>
-                    <li>
-                      <a href='contact-us.html'>About</a>
+                    <li style={{marginBottom: '8px'}}>
+                      <a href='contact-us.html' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>About</a>
                     </li>
-                    <li>
-                      <a href='contact-us.html'>Blog</a>
+                    <li style={{marginBottom: '8px'}}>
+                      <a href='contact-us.html' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Blog</a>
                     </li>
-                    <li>
-                      <a href='contact-us.html'>Services</a>
+                    <li style={{marginBottom: '8px'}}>
+                      <a href='contact-us.html' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Services</a>
                     </li>
-                    <li>
-                      <a href='contact-us.html'>Contact</a>
+                    <li style={{marginBottom: '8px'}}>
+                      <a href='contact-us.html' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Contact</a>
                     </li>
                   </ul>
                 </div>
               </div>
+            </div>
+            <div className='pbmit-footer-widget-col-3 col-md-3'>
+              {/* Empty column for spacing */}
             </div>
             {/* <div className="pbmit-footer-widget-col-3 col-md-3">
 							<div className="widget widget_text">
@@ -125,18 +141,17 @@ const Footer = () => {
 						</div> */}
             <div className='pbmit-footer-widget-col-4 col-md-3'>
               <aside className='widget'>
-                <h2 className='widget-title'>Say Hello</h2>
+                <h2 className='widget-title' style={{color: '#00b894', fontSize: '18px', marginBottom: '20px'}}>Say Hello</h2>
                 <div className='pbmit-contact-widget-lines'>
-                  <div className='pbmit-contact-widget-line pbmit-contact-widget-phone'>
-                    +1 800 123 456 789
+                  <div className='pbmit-contact-widget-line pbmit-contact-widget-phone' style={{color: '#ffffff', fontSize: '16px', marginBottom: '10px'}}>
+                    716-289-5986
                   </div>
-                  <div className='pbmit-contact-widget-line pbmit-contact-widget-email'>
+                  <div className='pbmit-contact-widget-line pbmit-contact-widget-email' style={{color: '#ffffff', fontSize: '14px'}}>
                     <a
-                      href='https://xclean-demo.pbminfotech.com/cdn-cgi/l/email-protection'
-                      className='__cf_email__'
-                      data-cfemail='85ecebe3eac5fceaf0f7e1eae8e4ecebabe6eae8'
+                      href='mailto:cozybrosheatingandcooling@gmail.com'
+                      style={{color: '#ffffff', textDecoration: 'none'}}
                     >
-                      [email&#160;protected]
+                      cozybrosheatingandcooling@gmail.com
                     </a>
                   </div>
                 </div>
@@ -152,8 +167,7 @@ const Footer = () => {
               <div className='col-md-12'>
                 <div className='pbmit-footer-copyright-text-area'>
                   {' '}
-                  Copyright © 2024 <a href='#'>CozyBros</a>, All Rights
-                  Reserved.
+                  Copyright ©2025 Cozy Bros Heating and Cooling | All Rights Reserved.
                 </div>
               </div>
             </div>

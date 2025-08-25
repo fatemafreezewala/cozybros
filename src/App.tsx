@@ -1,15 +1,18 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-const App: React.FC = () => {
+
+const AppContent: React.FC = () => {
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+
   return (
-    <Router>
-        	<div className="page-wrapper" id="page">
-<Header></Header>
+    <div className="page-wrapper" id="page">
+      <Header showHeroSlider={isHomePage}></Header>
 
       {/* Page Routes */}
       <Routes>
@@ -19,8 +22,15 @@ const App: React.FC = () => {
       </Routes>
 
       {/* Footer */}
-<Footer></Footer>
-            </div>
+      <Footer></Footer>
+    </div>
+  );
+};
+
+const App: React.FC = () => {
+  return (
+    <Router>
+      <AppContent />
     </Router>
   );
 };

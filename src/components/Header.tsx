@@ -1,6 +1,10 @@
 import React from 'react';
 
-export default function Header() {
+interface HeaderProps {
+  showHeroSlider?: boolean;
+}
+
+export default function Header({ showHeroSlider = false }: HeaderProps) {
   return (
     <header className='site-header header-style-1'>
       <div className='site-header-menu'>
@@ -129,6 +133,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+      {showHeroSlider && (
       <div className='pbmit-slider-area pbmit-slider-one'>
         <div
           className='swiper-slider'
@@ -362,6 +367,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+      )}
     </header>
   );
 }
