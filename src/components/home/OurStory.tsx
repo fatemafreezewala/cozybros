@@ -11,7 +11,7 @@ const OurStory = () => {
               {/* Left Text Content */}
               <div className="col-6 p-5">
                 <div className="story-header mb-4">
-                  <h6 className="text-success mb-3" style={{ fontSize: '14px', fontWeight: '600', letterSpacing: '1px' }}>
+                  <h6 className="mb-3" style={{ fontSize: '14px', fontWeight: '600', letterSpacing: '1px',color:'#000080', }}>
                     ❄️ OUR STORY
                   </h6>
                   <h2 className="fw-bold mb-4" style={{ fontSize: '2.5rem', color: '#1e293b', lineHeight: '1.2' }}>

@@ -167,7 +167,7 @@ export default function Header() {
                         <div className='pbmit-button transform-bottom transform-delay-4'>
                           <a
                             className='pbmit-btn pbmit-btn-global'
-                            href='services.html'
+                            href='services'
                           >
                             <span className='pbmit-button-content-wrapper'>
                               <span className='pbmit-button-icon'>
@@ -240,7 +240,7 @@ export default function Header() {
                         <div className='pbmit-button transform-bottom transform-delay-4'>
                           <a
                             className='pbmit-btn pbmit-btn-global'
-                            href='services.html'
+                            href='services'
                           >
                             <span className='pbmit-button-content-wrapper'>
                               <span className='pbmit-button-icon'>
@@ -313,7 +313,7 @@ export default function Header() {
                         <div className='pbmit-button transform-bottom transform-delay-4'>
                           <a
                             className='pbmit-btn pbmit-btn-global'
-                            href='services.html'
+                            href='services'
                           >
                             <span className='pbmit-button-content-wrapper'>
                               <span className='pbmit-button-icon'>

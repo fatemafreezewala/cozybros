@@ -58,7 +58,7 @@ const Services_Content = () => {
         <div className="row align-items-center mb-5">
           <div className="col-md-12">
             <div className="pbmit-heading-subheading animation-style2 text-center">
-              <h4 className="pbmit-subtitle">What We Do</h4>
+              <h4 className="fs-6 fw-semibold">❄️ What We Do</h4>
               <h2
                 className="pbmit-title"
                 style={{
@@ -67,6 +67,8 @@ const Services_Content = () => {
                   margin: "0 auto",
                   fontSize: "2.5rem",
                   lineHeight: "1.2",
+                  marginTop:"10px",
+                  marginBottom:"-50px",
                 }}
               >
                 Cozy Bros specializes in customer service and installs a wide
@@ -110,7 +112,7 @@ const Services_Content = () => {
                         {service.number}
                       </div>
                       <div className="pbmit-serv-cat">
-                        <a href="services.html" rel="tag">
+                        <a href="services" rel="tag">
                           {service.category}
                         </a>
                       </div>

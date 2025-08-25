@@ -8,7 +8,7 @@ const BookAppointment = () => {
           <div className='row'>
             <div className='col-md-12 col-xl-8'>
               <div className='pbmit-heading-subheading white-text mb-3 animation-style4'>
-                <h4 className='pbmit-subtitle'>Limited Period Offer</h4>
+                <h4 className="fs-6 fw-semibold">❄️ Limited Period Offer</h4>
                 <h2 className='pbmit-title'>
                   First Time Customers Get a Free Heating & Cooling Inspection
                 </h2>

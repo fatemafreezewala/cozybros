@@ -55,15 +55,7 @@ const Testimonial = () => {
         <div className="row align-items-start mb-5">
           <div className="col-lg-5">
             <div className="pbmit-heading-subheading">
-              <h4 className="pbmit-subtitle d-flex align-items-center mb-3" style={{
-                fontSize: '13px',
-                fontWeight: '600',
-                color: '#28a745',
-                letterSpacing: '1.5px',
-                textTransform: 'uppercase'
-              }}>
-                <span className="me-2" style={{ fontSize: '14px' }}>❄️</span> WHAT OUR CUSTOMERS SAY
-              </h4>
+              <h4 className="fs-6 fw-semibold" style={{color:'#04337eff'}}>❄️ WHAT OUR CUSTOMERS SAY</h4>
               <h2 className="pbmit-title mb-0" style={{ 
                 fontSize: '2.8rem', 
                 fontWeight: '700', 
