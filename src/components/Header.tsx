@@ -14,7 +14,7 @@ export default function Header() {
                       <img
                         className='logo-img'
                         src='assets/images/cozy-bros-logo.svg'
-                        alt='Xcleen'
+                        alt='CozyBros'
                       />
                     </a>
                   </h1>

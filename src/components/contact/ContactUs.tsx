@@ -6,6 +6,7 @@ import {
   FiClock,
   FiArrowUpRight,
 } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 
 const ContactCard = ({
   title,
@@ -36,7 +37,6 @@ const ContactCard = ({
         {title}
       </h4>
 
-      {/* Info Lines */}
       {lines.map((line, i) => (
         <p
           key={i}
@@ -47,7 +47,6 @@ const ContactCard = ({
         </p>
       ))}
 
-      {/* Icon Box */}
       <div
         style={{
           marginTop: "14px",
@@ -65,7 +64,6 @@ const ContactCard = ({
         <Icon />
       </div>
 
-      {/* Arrow button */}
       <button
         className="arrow-btn"
         style={{
@@ -94,6 +92,8 @@ const ContactCard = ({
 };
 
 const ContactUs = () => {
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -103,7 +103,6 @@ const ContactUs = () => {
   });
   const [error, setError] = useState("");
 
-  // Check if all fields are filled
   const isFormValid = Object.values(formData).every(
     (field) => field.trim() !== ""
   );
@@ -112,16 +111,16 @@ const ContactUs = () => {
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
-    setError(""); // clear error when typing
+    setError("");
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!isFormValid) {
-      setError("⚠️ Please fill all fields before submitting.");
+      setError("⚠ Please fill all fields before submitting.");
       return;
     }
-    alert("✅ Form submitted successfully!");
+    navigate("/contact-us");
   };
 
   return (
@@ -129,7 +128,6 @@ const ContactUs = () => {
       <section className="section-xl">
         <div className="container">
           <div className="row">
-            {/* Left - Contact Info */}
             <div className="col-lg-4">
               <div className="d-flex flex-column gap-4">
                 <ContactCard
@@ -161,10 +159,8 @@ const ContactUs = () => {
               </div>
             </div>
 
-            {/* Right - Form + Map */}
             <div className="col-lg-8">
               <div className="row">
-                {/* Form */}
                 <div className="col-12">
                   <div
                     className="contact-form-section p-5 mb-4"
@@ -183,7 +179,7 @@ const ContactUs = () => {
                           letterSpacing: "0.5px",
                         }}
                       >
-                        ❄️ CONTACT US
+                        ❄ CONTACT US
                       </h6>
                       <h2
                         className="fw-bold mb-3"
@@ -263,7 +259,6 @@ const ContactUs = () => {
                           <button
                             type="submit"
                             className="btn btn-outline-success"
-                            disabled={!isFormValid}
                           >
                             Get Cost Estimate <FiArrowUpRight size={16} />
                           </button>
@@ -334,13 +329,7 @@ const ContactUs = () => {
           align-items: center;
           gap: 6px;
         }
-        .btn-outline-success:disabled {
-          background: #d1d5db;
-          border-color: #d1d5db;
-          color: #6b7280;
-          cursor: not-allowed;
-        }
-        .btn-outline-success:hover:enabled {
+        .btn-outline-success:hover {
           background: #16a34a;
           color: #fff;
         }
