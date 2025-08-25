@@ -1,4 +1,3 @@
-import React from "react";
 
 const Services_Content_TitleBar = () => {
   return (

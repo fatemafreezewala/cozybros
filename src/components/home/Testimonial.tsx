@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Testimonial = () => {
   const testimonials = [
@@ -40,13 +39,6 @@ const Testimonial = () => {
     }
   ];
 
-  const renderStars = (rating: number) => {
-    return Array.from({ length: 5 }, (_, index) => (
-      <span key={index} className={`star ${index < rating ? 'filled' : ''}`}>
-        ⭐
-      </span>
-    ));
-  };
 
   return (
     <section className="section-lg" style={{ backgroundColor: '#f8f9fa' }}>
