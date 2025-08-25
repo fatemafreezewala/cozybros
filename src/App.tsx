@@ -1,15 +1,21 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Services from "./pages/services";
 import Header from "./components/Header";
 import SeperateHeader from "./components/SeperateHeader";
 import Footer from "./components/Footer";
 
 const AppContent: React.FC = () => {
   const location = useLocation();
-  const isHomePage = location.pathname === '/';
+  const isHomePage = location.pathname === "/";
 
   return (
     <div className="page-wrapper" id="page">
@@ -19,6 +25,7 @@ const AppContent: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/contact-us" element={<Contact />} />
       </Routes>
 
