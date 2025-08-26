@@ -24,7 +24,7 @@ const AppContent: React.FC = () => {
       {/* Page Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about-us" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact-us" element={<Contact />} />
       </Routes>
