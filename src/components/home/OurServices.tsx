@@ -1,5 +1,5 @@
 
-const OurServices = () => {
+const OurServices = ({ heading = true }: any) => {
   const services = [
     {
       number: "01",
@@ -54,10 +54,10 @@ const OurServices = () => {
   return (
     <section className="service-one-bg">
       <div className="container">
-        <div className="row align-items-center mb-5">
+        {heading && (<div className="row align-items-center mb-5">
           <div className="col-md-12">
             <div className="pbmit-heading-subheading animation-style2 text-center">
-              <h4 className="fs-6 fw-semibold">❄️ What We Do</h4>
+              <h4 className="fs-6 fw-semibold">What We Do</h4>
               <h2
                 className="pbmit-title"
                 style={{
@@ -66,8 +66,8 @@ const OurServices = () => {
                   margin: "0 auto",
                   fontSize: "2.5rem",
                   lineHeight: "1.2",
-                  marginTop:"10px",
-                  marginBottom:"-50px",
+                  marginTop: "10px",
+                  marginBottom: "-50px",
                 }}
               >
                 Cozy Bros specializes in customer service and installs a wide
@@ -75,7 +75,8 @@ const OurServices = () => {
               </h2>
             </div>
           </div>
-        </div>
+        </div>)}
+        {!heading && <div style={{ marginTop: '5%' }}></div>}
 
         <div className="row justify-content-center">
           {services.map((service, index) => (

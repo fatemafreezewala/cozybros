@@ -1,5 +1,5 @@
 
-export default function SeperateHeader() {
+export default function PagesHeader({ title }: any) {
   return (
     <header className='site-header header-style-1'>
       <div className='site-header-menu'>
@@ -122,6 +122,21 @@ export default function SeperateHeader() {
                       <span className='pbmit-button-text'>Get a Quote</span>
                     </span>
                   </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='pbmit-slider-area pbmit-slider-one'>
+        <div className="pbmit-title-bar-wrapper">
+          <div className="container">
+            <div className="pbmit-title-bar-content">
+              <div className="pbmit-title-bar-content-inner">
+                <div className="pbmit-tbar">
+                  <div className="pbmit-tbar-inner container">
+                    <h1 className="pbmit-tbar-title text-white text-center">{title}</h1>
+                  </div>
                 </div>
               </div>
             </div>
