@@ -96,22 +96,22 @@ const Footer = () => {
                 <div className='textwidget'>
                   <ul style={{listStyle: 'none', padding: 0, margin: 0}}>
                     <li style={{marginBottom: '8px'}}>
-                      <a href='our-history.html' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Home</a>
+                      <a href='/' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Home</a>
                     </li>
                     <li style={{marginBottom: '8px'}}>
-                      <a href='about-us.html' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Pricing</a>
+                      <a href='about-us' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Pricing</a>
                     </li>
                     <li style={{marginBottom: '8px'}}>
-                      <a href='contact-us.html' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>About</a>
+                      <a href='contact-us' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>About</a>
                     </li>
                     <li style={{marginBottom: '8px'}}>
-                      <a href='contact-us.html' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Blog</a>
+                      <a href='contact-us' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Blog</a>
                     </li>
                     <li style={{marginBottom: '8px'}}>
-                      <a href='contact-us.html' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Services</a>
+                      <a href='contact-us' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Services</a>
                     </li>
                     <li style={{marginBottom: '8px'}}>
-                      <a href='contact-us.html' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Contact</a>
+                      <a href='contact-us' style={{color: '#ffffff', textDecoration: 'none', fontSize: '14px'}}>Contact</a>
                     </li>
                   </ul>
                 </div>

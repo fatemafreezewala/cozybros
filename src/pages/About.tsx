@@ -4,7 +4,6 @@ import PagesHeader from "../components/PagesHeader"
 import AboutIntro from "../components/about/AboutIntro";
 import StaticBoxes from '../components/about/StaticBoxes';
 import MarqueeTags from '../components/about/MarqueeTags';
-import HowItWorks from '../components/about/HowItWorks';
 const About: React.FC = () => {
   return (
     <>
@@ -13,7 +12,6 @@ const About: React.FC = () => {
         <AboutIntro></AboutIntro>
         <StaticBoxes></StaticBoxes>
         <MarqueeTags></MarqueeTags>
-        <HowItWorks></HowItWorks>
       </div>
     </>
 
