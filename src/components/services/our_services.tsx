@@ -16,12 +16,12 @@ const HIGHLIGHTS = [
 ];
 
 const MAIN_IMAGES = [
-  "/assets/images/service/service-01.jpg",
-  "/assets/images/service/service-02.jpg",
-  "/assets/images/service/service-03.jpg",
+  "/assets/images/Home/AirConditioning.svg",
+  "/assets/images/Home/Machine.svg",
+  "/assets/images/Home/Furnaces.svg",
 ];
 
-const OurServices: React.FC = () => {
+const OurServices = () => {
   const [active, setActive] = useState("services");
 
   return (
@@ -85,57 +85,127 @@ const OurServices: React.FC = () => {
             </div>
           ))}
 
-          {/* Contact Card */}
+          {/* Contact Card - With technician as background */}
           <div
             style={{
               margin: 24,
               marginTop: 32,
-              background: "linear-gradient(135deg, #1bb76e 60%, #0e3c2e 100%)",
               borderRadius: 18,
-              padding: 28,
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              boxShadow: "0 6px 24px rgba(27,183,110,0.10)",
+              position: "relative",
+              overflow: "hidden",
+              height: 620,
+              boxShadow: "0 6px 24px rgba(27,183,110,0.15)",
               border: "1.5px solid #e6eaf0",
             }}
           >
+            {/* Technician Background Image */}
             <img
-              src="/assets/images/author-img.png"
-              alt="Technician"
+              src="/assets/images/Home/Bg_Ac_Main.svg"
+              alt="Technician Background"
               style={{
-                width: 84,
-                height: 84,
-                borderRadius: "50%",
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
                 objectFit: "cover",
-                marginBottom: 12,
-                border: "3px solid #fff",
-                boxShadow: "0 2px 8px rgba(0,0,0,0.10)",
+                zIndex: 1,
               }}
             />
             <div
               style={{
-                fontSize: 21,
-                fontWeight: 700,
-                marginBottom: 6,
-                color: "#fff",
-                textAlign: "center",
-                letterSpacing: 0.2,
+                position: "absolute",
+                bottom: -40,
+                left: -40,
+                width: 150,
+                height: 150,
+                background: "rgba(59, 130, 246, 0.15)",
+                borderRadius: "50%",
+                transform: "rotate(-20deg)",
+                zIndex: 3,
               }}
-            >
-              Call us Now
-              <br />
-              <span style={{ fontSize: 22 }}>+1 716-289-5986</span>
-            </div>
+            />
+            
+            {/* Phone icon */}
             <div
               style={{
-                color: "#e6f7f0",
-                fontSize: 15,
-                textAlign: "center",
-                fontWeight: 500,
+                position: "absolute",
+                top: 20,
+                left: 20,
+                width: 32,
+                height: 32,
+                marginTop:240,
+                background: "rgba(255,255,255,0.2)",
+                borderRadius: "8px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                zIndex: 4,
               }}
             >
-              Call for a free estimate!
+              <div style={{ fontSize: 18, color: "#fff" }}>📞</div>
+            </div>
+
+            {/* Text Content */}
+            <div
+              style={{
+                position: "absolute",
+                top: 20,
+                right: 20,
+                left: 60,
+                zIndex: 4,
+              }}
+            >
+              <div
+                style={{
+                  fontSize: 16,
+                  fontWeight: 600,
+                  color: "#fff",
+                  marginTop:240,
+                  marginBottom: 4,
+                  letterSpacing: 0.3,
+                }}
+              >
+                Call us Now
+              </div>
+              
+              <div
+                style={{
+                  fontSize: 20,
+                  fontWeight: 700,
+                  color: "#fff",
+                  letterSpacing: 0.5,
+                }}
+              >
+                +1 716-289-5986
+              </div>
+            </div>
+             <img
+              src="/assets/images/Home/Hero.svg"
+              alt="Technician"
+              style={{
+                position: "absolute",
+                bottom: 0,
+                right: 10,
+                width: 270,
+                objectFit: "contain",
+                zIndex: 3,
+              }}
+            />
+            {/* Bottom text */}
+            <div
+              style={{
+                position: "absolute",
+                bottom: 20,
+                left: 20,
+                right: 20,
+                color: "rgba(255,255,255,0.95)",
+                fontSize: 14,
+                textAlign: "center",
+                fontWeight: 500,
+                zIndex: 4,
+              }}
+            >
             </div>
           </div>
         </aside>
@@ -192,13 +262,11 @@ const OurServices: React.FC = () => {
           <div
             style={{
               fontSize: 26,
-              fontWeight: 800,
-              color: "#1bb76e",
               marginBottom: 10,
               letterSpacing: 0.2,
             }}
           >
-            Cozy Bros – Heating & Cooling Services for Comfort All Year Round
+            <h2>Cozy Bros – Heating & Cooling Services for Comfort All Year Round</h2>
           </div>
 
           {/* Description */}
@@ -218,8 +286,8 @@ const OurServices: React.FC = () => {
             cooling system is essential for health, safety, and satisfaction.
             <br />
             <br />
-            A reliable HVAC system isn’t just about comfort—it’s about
-            efficiency, air quality, and peace of mind. That’s why having a
+            A reliable HVAC system isn't just about comfort—it's about
+            efficiency, air quality, and peace of mind. That's why having a
             comprehensive heating and cooling service plan is so important.
             <br />
             <br />
@@ -229,7 +297,7 @@ const OurServices: React.FC = () => {
             their best—helping you save money, stay comfortable, and enjoy cleaner
             air, every day.
           </div>
-
+            <h5>Our Heating & Cooling Services</h5>
           {/* Highlights + Images in grid (one-to-one) */}
           <div
             style={{
