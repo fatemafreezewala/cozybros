@@ -20,6 +20,15 @@ const MAIN_IMAGES = [
   "/assets/images/Home/Machine.svg",
   "/assets/images/Home/Furnaces.svg",
 ];
+const SIDEBAR_IMAGES: Record<string, string> = {
+  "ac": "/assets/images/Home/AirConditioning.svg",
+  "furnace": "/assets/images/Home/Furnaces.svg", 
+  "boiler": "/assets/images/Home/Boilers.svg",
+  "mini-split": "/assets/images/Home/AC.svg",
+  "plumbing": "/assets/images/Home/Plumbing.svg",
+  "estimate": "/assets/images/Home/FreeEstimate.svg",
+  "services": "/assets/images/service/service-02.jpg"
+};
 
 const OurServices = () => {
   const [active, setActive] = useState("services");
@@ -232,7 +241,7 @@ const OurServices = () => {
             }}
           >
             <img
-              src="/assets/images/service/service-02.jpg"
+              src={SIDEBAR_IMAGES[active] || "/assets/images/service/service-02.jpg"}
               alt="Hero"
               style={{
                 width: "100%",
