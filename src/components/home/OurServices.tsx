@@ -1,4 +1,3 @@
-
 const OurServices = ({ heading = true }: any) => {
   const services = [
     {
@@ -50,7 +49,7 @@ const OurServices = ({ heading = true }: any) => {
       image: "/assets/images/Home/FreeEstimate.svg",
     },
   ];
-
+ 
   return (
     <section className="service-one-bg">
       <div className="container">
@@ -77,7 +76,7 @@ const OurServices = ({ heading = true }: any) => {
           </div>
         </div>)}
         {!heading && <div style={{ marginTop: '5%' }}></div>}
-
+ 
         <div className="row justify-content-center">
           {services.map((service, index) => (
             <div key={index} className="col-md-6 col-lg-4 mb-4">
@@ -133,5 +132,5 @@ const OurServices = ({ heading = true }: any) => {
     </section>
   );
 };
-
+ 
 export default OurServices;

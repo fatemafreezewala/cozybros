@@ -1,15 +1,15 @@
+
 import PagesHeader from "../components/PagesHeader";
-import ServicesCard from '../components/home/OurServices'
+import OurServices from "../components/services/our_services";
 
 const Services = () => {
   return (
     <>
-      <PagesHeader title="Services"></PagesHeader>
+      <PagesHeader title="Services" />
       <div className="page-content-services">
-        <ServicesCard heading={false}></ServicesCard>
+        <OurServices />
       </div>
     </>
-
   );
 };
 
