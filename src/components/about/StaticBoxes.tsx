@@ -10,23 +10,9 @@ const StaticBoxes = () => {
                 <div className="row pbminfotech-gap-40px">
                     {boxes.map((b) => (
                         <article className="pbmit-static-box-style-1 col-md-4" key={b.text}>
-                            <div className="pbminfotech-post-item">
-                                <div className="pbmit-title-wrapper">
-                                    <img src={b.img} alt="" />
-                                </div>
-                                <div className="pbmit-staticbox-wraper">
-                                    <h2 className="pbmit-staticbox-title">
-                                        <a href="#">
-                                            <span className="pbmit-button-text"> {b.text} </span>
-                                            <span className="pbmit-button-icon-wrapper">
-                                                <span className="pbmit-button-icon">
-                                                    <i className="pbmit-base-icon-black-arrow-1"></i>
-                                                </span>
-                                            </span>
-                                        </a>
-                                    </h2>
-                                </div>
-                            </div>
+                            <h2 className="pbmit-staticbox-title">
+                                {b.text}
+                            </h2>
                         </article>
                     ))}
                 </div>

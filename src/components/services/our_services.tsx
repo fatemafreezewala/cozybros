@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const SIDEBAR_ITEMS = [
   { key: "ac", label: "Air Conditioning" },
@@ -22,7 +22,7 @@ const MAIN_IMAGES = [
 ];
 const SIDEBAR_IMAGES: Record<string, string> = {
   "ac": "/assets/images/Home/AirConditioning.svg",
-  "furnace": "/assets/images/Home/Furnaces.svg", 
+  "furnace": "/assets/images/Home/Furnaces.svg",
   "boiler": "/assets/images/Home/Boilers.svg",
   "mini-split": "/assets/images/Home/AC.svg",
   "plumbing": "/assets/images/Home/Plumbing.svg",
@@ -34,37 +34,9 @@ const OurServices = () => {
   const [active, setActive] = useState("services");
 
   return (
-    <div
-      style={{
-        background: "#f5f7fa",
-        minHeight: "100vh",
-        fontFamily: "Inter, Arial, sans-serif",
-        padding: 32,
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          maxWidth: 1200,
-          margin: "0 auto",
-          gap: 36,
-          alignItems: "flex-start",
-        }}
-      >
-        {/* Sidebar */}
-        <aside
-          style={{
-            minWidth: 260,
-            background: "#fff",
-            borderRadius: 18,
-            boxShadow: "0 4px 24px rgba(0,0,0,0.07)",
-            padding: 0,
-            display: "flex",
-            flexDirection: "column",
-            gap: 0,
-            border: "1px solid #e6eaf0",
-          }}
-        >
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-4">
           {SIDEBAR_ITEMS.map((item) => (
             <div
               key={item.key}
@@ -96,6 +68,7 @@ const OurServices = () => {
 
           {/* Contact Card - With technician as background */}
           <div
+            className="d-none d-md-block"
             style={{
               margin: 24,
               marginTop: 32,
@@ -134,7 +107,7 @@ const OurServices = () => {
                 zIndex: 3,
               }}
             />
-            
+
             {/* Phone icon */}
             <div
               style={{
@@ -143,7 +116,7 @@ const OurServices = () => {
                 left: 20,
                 width: 32,
                 height: 32,
-                marginTop:240,
+                marginTop: 240,
                 background: "rgba(255,255,255,0.2)",
                 borderRadius: "8px",
                 display: "flex",
@@ -170,14 +143,14 @@ const OurServices = () => {
                   fontSize: 16,
                   fontWeight: 600,
                   color: "#fff",
-                  marginTop:240,
+                  marginTop: 240,
                   marginBottom: 4,
                   letterSpacing: 0.3,
                 }}
               >
                 Call us Now
               </div>
-              
+
               <div
                 style={{
                   fontSize: 20,
@@ -189,7 +162,7 @@ const OurServices = () => {
                 +1 716-289-5986
               </div>
             </div>
-             <img
+            <img
               src="/assets/images/Home/Hero.svg"
               alt="Technician"
               style={{
@@ -217,18 +190,8 @@ const OurServices = () => {
             >
             </div>
           </div>
-        </aside>
-
-        {/* Main Content */}
-        <div
-          style={{
-            flex: 1,
-            minWidth: 0,
-            display: "flex",
-            flexDirection: "column",
-            gap: 22,
-          }}
-        >
+        </div>
+        <div className="col-lg-8">
           {/* Hero Section */}
           <div
             style={{
@@ -248,6 +211,7 @@ const OurServices = () => {
                 height: 220,
                 objectFit: "cover",
                 borderRadius: 18,
+                marginTop: 20
               }}
             />
             <div
@@ -258,7 +222,7 @@ const OurServices = () => {
                 transform: "translate(-50%, -50%)",
                 color: "#fff",
                 fontSize: 36,
-                fontWeight: 800,
+
                 textShadow: "0 2px 6px rgba(0,0,0,0.4)",
                 textAlign: "center",
               }}
@@ -306,25 +270,15 @@ const OurServices = () => {
             their best—helping you save money, stay comfortable, and enjoy cleaner
             air, every day.
           </div>
-            <h5>Our Heating & Cooling Services</h5>
+          <h5>Our Heating & Cooling Services</h5>
           {/* Highlights + Images in grid (one-to-one) */}
           <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(3, 1fr)",
-              gap: 20,
-              marginBottom: 22,
-            }}
+            className="row g-4" style={{ marginTop: 8 }}
           >
             {HIGHLIGHTS.map((card, idx) => (
               <div
                 key={card.title}
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  gap: 12,
-                }}
+                className="col-lg-4 col-sm-12"
               >
                 {/* Card */}
                 <div
@@ -347,34 +301,14 @@ const OurServices = () => {
                   <span style={{ color: "#222" }}>{card.title}</span>
                 </div>
 
-                {/* Matching Image */}
-                <div
-                  style={{
-                    width: "100%",
-                    borderRadius: 16,
-                    overflow: "hidden",
-                    background: "#fff",
-                    boxShadow: "0 4px 16px rgba(0,0,0,0.07)",
-                    border: "1px solid #e6eaf0",
-                  }}
-                >
-                  <img
-                    src={MAIN_IMAGES[idx]}
-                    alt={`Service ${idx + 1}`}
-                    style={{
-                      width: "100%",
-                      height: 150,
-                      objectFit: "cover",
-                      borderRadius: 16,
-                    }}
-                  />
-                </div>
+
               </div>
             ))}
           </div>
         </div>
       </div>
     </div>
+
   );
 };
 

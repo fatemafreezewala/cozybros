@@ -49,7 +49,7 @@ const OurServices = ({ heading = true }: any) => {
       image: "/assets/images/Home/FreeEstimate.svg",
     },
   ];
- 
+
   return (
     <section className="service-one-bg">
       <div className="container">
@@ -76,7 +76,7 @@ const OurServices = ({ heading = true }: any) => {
           </div>
         </div>)}
         {!heading && <div style={{ marginTop: '5%' }}></div>}
- 
+
         <div className="row justify-content-center">
           {services.map((service, index) => (
             <div key={index} className="col-md-6 col-lg-4 mb-4">
@@ -96,7 +96,7 @@ const OurServices = ({ heading = true }: any) => {
                       <div className="pbmit-service-btn-wrapper">
                         <a
                           className="pbmit-service-btn"
-                          href="services"
+                          href="/service-details"
                           title={service.title}
                         >
                           <span className="pbmit-button-icon">
@@ -104,19 +104,19 @@ const OurServices = ({ heading = true }: any) => {
                           </span>
                         </a>
                       </div>
-                      <a className="pbmit-link" href="services"></a>
+                      <a className="pbmit-link" href="/service-details"></a>
                     </div>
                     <div className="pbmit-content-box">
                       <div className="pbminfotech-box-number">
                         {service.number}
                       </div>
                       <div className="pbmit-serv-cat">
-                        <a href="services" rel="tag">
+                        <a href="/service-details" rel="tag">
                           {service.category}
                         </a>
                       </div>
                       <h3 className="pbmit-service-title">
-                        <a href="services">{service.title}</a>
+                        <a href="/service-details">{service.title}</a>
                       </h3>
                       <div className="pbmit-service-description">
                         <p>{service.description}</p>
@@ -132,5 +132,5 @@ const OurServices = ({ heading = true }: any) => {
     </section>
   );
 };
- 
+
 export default OurServices;

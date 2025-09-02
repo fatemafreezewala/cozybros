@@ -35,7 +35,7 @@ const AboutIntro = () => {
                                 </div>
                             </div>
                             <div className="col-md-12 col-xl-6 pt-xl-0 pt-3">
-                                <a className="pbmit-btn pbmit-btn-outline" href="about-us.html">
+                                <a className="pbmit-btn pbmit-btn-outline" href="/about-us">
                                     <span className="pbmit-button-content-wrapper">
                                         <span className="pbmit-button-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">

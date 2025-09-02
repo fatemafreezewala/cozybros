@@ -14,7 +14,7 @@ export default function WhyChooseUs() {
                         </div>
                         <a
                             className="pbmit-btn pbmit-btn-outline"
-                            href="about-us.html"
+                            href="/about-us"
                         >
                             <span className="pbmit-button-content-wrapper">
                                 <span className="pbmit-button-icon">
@@ -61,7 +61,7 @@ export default function WhyChooseUs() {
                                     <div className="pbmit-ihbox-headingicon">
                                         <div className="pbmit-ihbox-icon">
                                             <div className="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                                <img src="/assets/images/Home/AcMan.svg" alt="HVAC Technician" style={{width: '60px', height: '60px'}} />
+                                                <img src="/assets/images/Home/AcMan.svg" alt="HVAC Technician" style={{ width: '60px', height: '60px' }} />
                                             </div>
                                         </div>
                                         <div className="pbmit-ihbox-contents">
@@ -83,7 +83,7 @@ export default function WhyChooseUs() {
                                     <div className="pbmit-ihbox-headingicon">
                                         <div className="pbmit-ihbox-icon">
                                             <div className="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                                <img src="/assets/images/Home/AcMan.svg" alt="HVAC Technician" style={{width: '60px', height: '60px'}} />
+                                                <img src="/assets/images/Home/AcMan.svg" alt="HVAC Technician" style={{ width: '60px', height: '60px' }} />
                                             </div>
                                         </div>
                                         <div className="pbmit-ihbox-contents">
@@ -108,7 +108,7 @@ export default function WhyChooseUs() {
                                         <div className="pbmit-ihbox-headingicon">
                                             <div className="pbmit-ihbox-icon">
                                                 <div className="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                                    <img src="/assets/images/Home/AcMan.svg" alt="HVAC Technician" style={{width: '60px', height: '60px'}} />
+                                                    <img src="/assets/images/Home/AcMan.svg" alt="HVAC Technician" style={{ width: '60px', height: '60px' }} />
                                                 </div>
                                             </div>
                                             <div className="pbmit-ihbox-contents">
@@ -131,7 +131,7 @@ export default function WhyChooseUs() {
                                         <div className="pbmit-ihbox-headingicon">
                                             <div className="pbmit-ihbox-icon">
                                                 <div className="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-                                                    <img src="/assets/images/Home/AcMan.svg" alt="HVAC Technician" style={{width: '60px', height: '60px'}} />
+                                                    <img src="/assets/images/Home/AcMan.svg" alt="HVAC Technician" style={{ width: '60px', height: '60px' }} />
                                                 </div>
                                             </div>
                                             <div className="pbmit-ihbox-contents">

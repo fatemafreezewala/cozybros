@@ -1,16 +1,16 @@
+import React from 'react';
+import PagesHeader from "../components/PagesHeader"
+import OurServices from '../components/home/OurServices';
+const About: React.FC = () => {
+    return (
+        <>
+            <PagesHeader title="Services"></PagesHeader>
+            <div className="page about-bg">
+                <OurServices heading={false}></OurServices>
+            </div>
+        </>
 
-import PagesHeader from "../components/PagesHeader";
-import OurServices from "../components/services/our_services";
-
-const Services = () => {
-  return (
-    <>
-      <PagesHeader title="Services" />
-      <div className="page-content-services">
-        <OurServices />
-      </div>
-    </>
-  );
+    );
 };
 
-export default Services;
+export default About;

@@ -9,7 +9,7 @@ export default function PagesHeader({ title }: any) {
               <div className='pbmit-logo-menuarea d-flex justify-content-between align-items-center'>
                 <div className='site-branding'>
                   <h1 className='site-title'>
-                    <a href='index-2.html'>
+                    <a href='/'>
                       <img
                         className='logo-img'
                         src='assets/images/cozy-bros-logo.svg'
@@ -86,7 +86,7 @@ export default function PagesHeader({ title }: any) {
                   </a>
                 </div>
                 <div className='pbmit-button-box-second'>
-                  <a className='pbmit-btn' href='contact-us.html'>
+                  <a className='pbmit-btn' href='/contact-us'>
                     <span className='pbmit-button-content-wrapper'>
                       <span className='pbmit-button-icon'>
                         <svg

@@ -7,14 +7,13 @@ const BookAppointment = () => {
           <div className='row'>
             <div className='col-md-12 col-xl-8'>
               <div className='pbmit-heading-subheading white-text mb-3 animation-style4'>
-                <h4 className="fs-6 fw-semibold">❄️ Limited Period Offer</h4>
                 <h2 className='pbmit-title'>
                   First Time Customers Get a Free Heating & Cooling Inspection
                 </h2>
               </div>
               <a
                 className='pbmit-btn pbmit-btn-hover-white'
-                href='contact-us.html'
+                href='/contact-us'
               >
                 <span className='pbmit-button-content-wrapper'>
                   <span className='pbmit-button-icon'>
