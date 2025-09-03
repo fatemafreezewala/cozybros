@@ -8,19 +8,19 @@ const OurStory = () => {
           <div className="col-12">
             <div className="row g-0">
               {/* Left Text Content */}
-              <div className="col-lg-6 col-sm-12 p-5">
+              <div className="col-lg-6 col-sm-12 p-2 p-lg-5">
                 <div className="story-header mb-4">
-                  <h6 className="mb-3" style={{ fontSize: '14px', fontWeight: '600', letterSpacing: '1px', color: '#000080', }}>
+                  <h6 className="fs-6 fw-semibold mb-3">
                     OUR STORY
                   </h6>
-                  <h2 className="fw-bold mb-4" style={{ fontSize: '2.5rem', color: '#1e293b', lineHeight: '1.2' }}>
+                  <h2 className="pbmit-title what-we-do-title">
                     From big company experience to personalized local service.
                   </h2>
                 </div>
               </div>
 
               {/* Right Text Content */}
-              <div className="col-lg-6 col-sm-12 p-5">
+              <div className="col-lg-6 col-sm-12 p-2 p-lg-5">
                 <p style={{ fontSize: '16px', color: '#64748b', lineHeight: '1.7', marginBottom: '2rem' }}>
                   My name is Ahmed and I live with my wonderful family in beautiful Lake View, NY. I've been in the
                   HVAC business for years and absolutely loved getting to know and work with families and

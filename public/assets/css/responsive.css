@@ -1424,6 +1424,11 @@ body {
 }
 
 @media(max-width:991px) {
+	.what-we-do-title {
+		font-size: 2rem !important;
+		line-height: 35px !important;
+	}
+
 	.site-footer {
 		margin: 0px !important;
 		border-radius: 0px !important;

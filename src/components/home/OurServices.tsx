@@ -58,16 +58,16 @@ const OurServices = ({ heading = true }: any) => {
             <div className="pbmit-heading-subheading animation-style2 text-center">
               <h4 className="fs-6 fw-semibold">What We Do</h4>
               <h2
-                className="pbmit-title"
-                style={{
-                  fontWeight: "bold",
-                  maxWidth: "900px",
-                  margin: "0 auto",
-                  fontSize: "2.5rem",
-                  lineHeight: "1.2",
-                  marginTop: "10px",
-                  marginBottom: "-50px",
-                }}
+                className="pbmit-title what-we-do-title"
+              // style={{
+              //   fontWeight: "bold",
+              //   maxWidth: "900px",
+              //   margin: "0 auto",
+              //   fontSize: "2.5rem",
+              //   lineHeight: "1.2",
+              //   marginTop: "10px",
+              //   marginBottom: "-50px",
+              // }}
               >
                 Cozy Bros specializes in customer service and installs a wide
                 range of HVAC equipment for WNY and surrounding areas. We offer:

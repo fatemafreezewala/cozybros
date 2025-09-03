@@ -70,7 +70,7 @@ export default function Header() {
                   </nav>
                 </div>
               </div>
-              <div className='pbmit-right-box d-flex align-items-center'>
+              <div className='pbmit-right-box d-flex align-items-center gap-5'>
                 <div className='pbmit-button-box'>
                   <div className='pbmit-header-button'>
                     <a href='tel:+1 716-289-5986'>
@@ -80,11 +80,7 @@ export default function Header() {
                     </a>
                   </div>
                 </div>
-                <div className='pbmit-header-search-btn'>
-                  <a href='#' title='Search'>
-                    <i className='pbmit-base-icon-search-1'></i>
-                  </a>
-                </div>
+
                 <div className='pbmit-button-box-second'>
                   <a className='pbmit-btn' href='/contact-us'>
                     <span className='pbmit-button-content-wrapper'>
@@ -286,7 +282,7 @@ export default function Header() {
               </div>
             </div>
 
-            {/* <div className='swiper-slide'>
+            <div className='swiper-slide'>
               <div className='pbmit-slider-item'>
                 <div
                   className='pbmit-slider-bg'
@@ -357,7 +353,7 @@ export default function Header() {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

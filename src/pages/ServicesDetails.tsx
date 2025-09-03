@@ -1,6 +1,6 @@
 
 import PagesHeader from "../components/PagesHeader";
-import OurServices from "../components/services/our_services";
+import OurServices from "../components/services/OurServices";
 
 const Services = () => {
   return (

@@ -6,8 +6,8 @@ export default function WhyChooseUs() {
                 <div className="row">
                     <div className="col-md-12 col-xl-6">
                         <div className="pbmit-heading-subheading animation-style2">
-                            <h4 className="fs-6 fw-semibold">❄️ Why choose us?</h4>
-                            <h2 className="pbmit-title">
+                            <h4 className="fs-6 fw-semibold">Why choose us?</h4>
+                            <h2 className="pbmit-title what-we-do-title">
                                 We work many fields to clean your surrounding
                                 area
                             </h2>
