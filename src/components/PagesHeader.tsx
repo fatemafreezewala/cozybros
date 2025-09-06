@@ -74,7 +74,7 @@ export default function PagesHeader({ title }: any) {
                   </nav>
                 </div>
               </div>
-              <div className='pbmit-right-box d-flex align-items-center'>
+              <div className='pbmit-right-box d-flex align-items-center gap-5'>
                 <div className='pbmit-button-box'>
                   <div className='pbmit-header-button'>
                     <a href='tel:+1 716-289-5986'>
@@ -84,11 +84,7 @@ export default function PagesHeader({ title }: any) {
                     </a>
                   </div>
                 </div>
-                <div className='pbmit-header-search-btn'>
-                  <a href='#' title='Search'>
-                    <i className='pbmit-base-icon-search-1'></i>
-                  </a>
-                </div>
+
                 <div className='pbmit-button-box-second'>
                   <button className='pbmit-btn' onClick={() => {
                     setShow(true)
