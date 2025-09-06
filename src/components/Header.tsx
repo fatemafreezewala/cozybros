@@ -1,5 +1,9 @@
+import { useState } from "react";
+import Quote from "./Quote";
 
 export default function Header() {
+  const [show, setShow] = useState(false);
+
   return (
     <header className='site-header header-style-1'>
       <div className='site-header-menu'>
@@ -82,7 +86,9 @@ export default function Header() {
                 </div>
 
                 <div className='pbmit-button-box-second'>
-                  <a className='pbmit-btn' href='/contact-us'>
+                  <button className='pbmit-btn' onClick={() => {
+                    setShow(true)
+                  }}>
                     <span className='pbmit-button-content-wrapper'>
                       <span className='pbmit-button-icon'>
                         <svg
@@ -117,7 +123,7 @@ export default function Header() {
                       </span>
                       <span className='pbmit-button-text'>Get a Quote</span>
                     </span>
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
@@ -357,6 +363,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+      <Quote show={show} setShow={setShow}></Quote>
     </header>
   );
 }
