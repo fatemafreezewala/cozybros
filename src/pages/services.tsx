@@ -5,7 +5,7 @@ const Services: React.FC = () => {
     return (
         <>
             <PagesHeader title="Services"></PagesHeader>
-            <div className="page about-bg">
+            <div className="page about-bg ">
                 <OurServices heading={false}></OurServices>
             </div>
         </>
