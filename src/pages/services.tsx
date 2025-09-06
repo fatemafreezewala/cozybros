@@ -1,7 +1,6 @@
-import React from 'react';
 import PagesHeader from "../components/PagesHeader"
 import OurServices from '../components/home/OurServices';
-const Services: React.FC = () => {
+const Services = () => {
     return (
         <>
             <PagesHeader title="Services"></PagesHeader>
