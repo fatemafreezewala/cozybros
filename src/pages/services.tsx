@@ -1,7 +1,7 @@
 import React from 'react';
 import PagesHeader from "../components/PagesHeader"
 import OurServices from '../components/home/OurServices';
-const About: React.FC = () => {
+const Services: React.FC = () => {
     return (
         <>
             <PagesHeader title="Services"></PagesHeader>
@@ -13,4 +13,4 @@ const About: React.FC = () => {
     );
 };
 
-export default About;
+export default Services;

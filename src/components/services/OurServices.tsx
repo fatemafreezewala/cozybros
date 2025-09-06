@@ -15,11 +15,6 @@ const HIGHLIGHTS = [
   { title: "Emergency HVAC Services", icon: "🚨" },
 ];
 
-const MAIN_IMAGES = [
-  "/assets/images/Home/AirConditioning.svg",
-  "/assets/images/Home/Machine.svg",
-  "/assets/images/Home/Furnaces.svg",
-];
 const SIDEBAR_IMAGES: Record<string, string> = {
   "ac": "/assets/images/Home/AirConditioning.svg",
   "furnace": "/assets/images/Home/Furnaces.svg",
@@ -275,7 +270,7 @@ const OurServices = () => {
           <div
             className="row g-4" style={{ marginTop: 8 }}
           >
-            {HIGHLIGHTS.map((card, idx) => (
+            {HIGHLIGHTS.map((card: any) => (
               <div
                 key={card.title}
                 className="col-lg-4 col-sm-12"
