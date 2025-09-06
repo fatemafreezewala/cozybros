@@ -226,7 +226,7 @@ export default function Header() {
                 </div>
               </div>
             </div>
-
+            {/* 
             <div className='swiper-slide'>
               <div className='pbmit-slider-item'>
                 <div
@@ -371,7 +371,7 @@ export default function Header() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -405,6 +405,9 @@ body {
 
 
 @media(max-width: 1200px) {
+	.pbmit-slider-one {
+		border-radius: 0px !important;
+	}
 
 	.container,
 	.container-lg,
