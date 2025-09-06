@@ -333,9 +333,9 @@
   /*-------------------------------------
     Mobile Menu
   -------------------------------------*/
-  $('.navbar-toggler,.closepanel').on('click', function () {
-    jQuery("header").toggleClass("active");
-  });
+//   $('.navbar-toggler,.closepanel').on('click', function () {
+//     jQuery("header").toggleClass("active");
+//   });
 
   /*-------------------------------------
   Sticky header wrapper

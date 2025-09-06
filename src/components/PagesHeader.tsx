@@ -3,9 +3,10 @@ import Quote from "./Quote";
 
 export default function PagesHeader({ title }: any) {
   const [show, setShow] = useState(false);
+  const [mobileHeader, setMobileHeader] = useState(false)
 
   return (
-    <header className='site-header header-style-1'>
+    <header className={`site-header header-style-1 ${mobileHeader ? 'active' : ''}`}>
       <div className='site-header-menu'>
         <div className='pbmit-main-header-area pbmit-bg-color-white'>
           <div className='container-fluid'>
@@ -25,7 +26,9 @@ export default function PagesHeader({ title }: any) {
                 <div className='site-navigation'>
                   <nav className='main-menu navbar-expand-xl navbar-light'>
                     <div className='navbar-header'>
-                      <button className='navbar-toggler' type='button'>
+                      <button className='navbar-toggler' onClick={() => {
+                        setMobileHeader(true)
+                      }} type='button'>
                         <i className='pbmit-base-icon-menu-1'></i>
                       </button>
                     </div>
@@ -35,7 +38,9 @@ export default function PagesHeader({ title }: any) {
                       id='pbmit-menu'
                     >
                       <div className='pbmit-menu-wrap'>
-                        <span className='closepanel'>
+                        <span className='closepanel' onClick={() => {
+                          setMobileHeader(false)
+                        }}>
                           <svg
                             className='qodef-svg--close qodef-m'
                             xmlns='http://www.w3.org/2000/svg'
@@ -56,17 +61,25 @@ export default function PagesHeader({ title }: any) {
                           </svg>
                         </span>
                         <ul className='navigation clearfix'>
-                          <li>
-                            <a href='/'>Home</a>
+                          <li className="dropdown">
+                            <a onClick={() => {
+                              setMobileHeader(false)
+                            }} href='/'>Home</a>
                           </li>
-                          <li>
-                            <a href='/about-us'>About Us</a>
+                          <li className="dropdown">
+                            <a onClick={() => {
+                              setMobileHeader(false)
+                            }} href='/about-us'>About Us</a>
                           </li>
-                          <li>
-                            <a href='/services'>Services</a>
+                          <li className="dropdown">
+                            <a onClick={() => {
+                              setMobileHeader(false)
+                            }} href='/services'>Services</a>
                           </li>
-                          <li>
-                            <a href='/contact-us'>Contact Us</a>
+                          <li className="dropdown">
+                            <a onClick={() => {
+                              setMobileHeader(false)
+                            }} href='/contact-us'>Contact Us</a>
                           </li>
                         </ul>
                       </div>
