@@ -14,7 +14,7 @@ const OurStory = () => {
                     OUR STORY
                   </h6>
                   <h2 className="pbmit-title what-we-do-title">
-                    From big company experience to personalized local service.
+                    Where big company knowledge meets hometown service.
                   </h2>
                 </div>
               </div>
@@ -22,10 +22,7 @@ const OurStory = () => {
               {/* Right Text Content */}
               <div className="col-lg-6 col-sm-12 p-2 p-lg-5">
                 <p style={{ fontSize: '16px', color: '#64748b', lineHeight: '1.7', marginBottom: '2rem' }}>
-                  My name is Ahmed and I live with my wonderful family in beautiful Lake View, NY. I've been in the
-                  HVAC business for years and absolutely loved getting to know and work with families and
-                  customers. That's what I value the most. However, working for a big company had a lot of
-                  pressure, quotas, and pushy sales tactics.
+                  Hi, I’m Ahmed. I live with my wonderful family in Lake View, NY. I’ve worked in the HVAC industry for many years and have loved helping families and customers with their comfort needs. What I value most is building trust and genuine connections. After years of working in big companies with high pressure, quotas, and pushy sales tactics, I decided to focus on offering honest, customer-first service.”
                 </p>
 
                 <div className="mb-4">

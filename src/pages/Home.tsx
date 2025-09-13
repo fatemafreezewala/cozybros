@@ -1,5 +1,4 @@
 import React from 'react';
-import WhyChooseUs from '../components/home/WhyChooseUs';
 import Testimonial from '../components/home/Testimonial';
 import OurStory from '../components/home/OurStory';
 import OurServices from '../components/home/OurServices';
@@ -12,10 +11,10 @@ const Home: React.FC = () => {
     <>
       <Header></Header>
       <div className='page-content'>
-        <WhyChooseUs></WhyChooseUs>
+        <OurServices></OurServices>
+        {/* <WhyChooseUs></WhyChooseUs> */}
         <ServicesMarquee></ServicesMarquee>
         <OurStory></OurStory>
-        <OurServices></OurServices>
         <BookAppointment></BookAppointment>
         <Testimonial></Testimonial>
       </div>

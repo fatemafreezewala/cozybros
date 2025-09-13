@@ -5,7 +5,7 @@ const OurServices = ({ heading = true }: any) => {
       category: "Air Freshener",
       title: "Air Conditioning",
       description:
-        "We install, repair, and maintain all types of air conditioning systems to keep your home cool, comfortable, and energy-efficient during the hottest days.",
+        "Stay cool all year round with our expert air conditioning services. We install, repair, and maintain all types of AC systems to keep your home comfortable and energy efficient.",
       image: "/assets/images/Home/AirConditioning.svg",
     },
     {
@@ -13,7 +13,7 @@ const OurServices = ({ heading = true }: any) => {
       category: "Cleaner",
       title: "Furnaces",
       description:
-        "Our furnace installation and service ensure reliable heating with maximum efficiency, so your family stays warm throughout the cold WNY winters.",
+        "Our furnace installation and service ensure reliable heating with maximum efficiency, so your family stays warm throughout the cold WNY wintersReliable warmth when you need it most. Our furnace installation and maintenance services ensure maximum efficiency, comfort, and long-lasting performance for your home.",
       image: "/assets/images/Home/Furnaces.svg",
     },
     {
@@ -21,7 +21,7 @@ const OurServices = ({ heading = true }: any) => {
       category: "Custodian",
       title: "Boilers",
       description:
-        "From new boiler installations to regular maintenance, we provide safe, efficient, and long lasting heating solutions you can count on.",
+        "Safe, efficient, and dependable heating. From new installations to routine maintenance, our boiler services deliver long-term comfort and peace of mind.",
       image: "/assets/images/Home/Boilers.svg",
     },
     {
@@ -29,7 +29,7 @@ const OurServices = ({ heading = true }: any) => {
       category: "Disinfectant",
       title: "Mini Split AC",
       description:
-        "A great option for homes without ductwork, mini splits offer room by-room comfort and energy savings with modern, quiet technology.",
+        "Perfect for homes without ductwork. Our mini split systems provide room-by-room comfort, quiet operation, and energy savings.",
       image: "/assets/images/Home/MiniSplitAc.svg",
     },
     {
@@ -37,7 +37,7 @@ const OurServices = ({ heading = true }: any) => {
       category: "Vacuum",
       title: "Plumbing & Re-Piping",
       description:
-        "Whether it's fixing leaks, upgrading old pipes, or complete re-piping, our plumbing services are built on quality, durability, and trust.",
+        "From leak repairs to complete re-piping, we handle all your plumbing needs with quality craftsmanship, durability, and reliable solutions built to last.",
       image: "/assets/images/Home/Plumbing.svg",
     },
     {
@@ -45,7 +45,7 @@ const OurServices = ({ heading = true }: any) => {
       category: "Washroom",
       title: "Free estimate on furnace/ AC installs",
       description:
-        "We believe in honesty and transparency, which is why we offer free, no obligation estimates on all furnace and AC installations.",
+        "No hidden costs, no pressure—just honest, upfront pricing. Get a free, no-obligation estimate on your furnace or air conditioning installation today.",
       image: "/assets/images/Home/FreeEstimate.svg",
     },
   ];
@@ -53,7 +53,7 @@ const OurServices = ({ heading = true }: any) => {
   return (
     <section className="service-one-bg">
       <div className="container">
-        {heading && (<div className="row align-items-center mb-5">
+        {heading && (<div className="row align-items-center mb-5 mt-5">
           <div className="col-md-12">
             <div className="pbmit-heading-subheading animation-style2 text-center">
               <h4 className="fs-6 fw-semibold">What We Do</h4>

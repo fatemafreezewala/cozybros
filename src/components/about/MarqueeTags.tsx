@@ -1,5 +1,5 @@
 const MarqueeTags = () => {
-    const tags = ["Cleaning", "Moping", "Vacuum", "Sweeping"];
+    const tags = ["Air Conditioning", "Furnaces", "Boilers", "Plumbing & Re-Piping"];
     return (
         <section className="pt-5 overflow-hidden">
             <div className="container-fluid p-0">

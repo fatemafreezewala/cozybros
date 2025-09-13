@@ -6,34 +6,34 @@ const Testimonial = () => {
       name: "John Naugh...",
       timeAgo: "10 months ago",
       rating: 5,
-      text: "Cozy bros is very affordable. They're very flexible with scheduling and knowledgeable when asked questions. If I ever have similar problems in the fut ...",
+      text: "Cozy Bros is affordable and reliable. They were flexible with scheduling and answered all my questions clearly. I’ll definitely call them again if I need help in the future.",
       avatar: "/assets/images/testimonials/john.jpg",
       verified: true
     },
     {
       id: 2,
       name: "Jessie Kli...",
-      timeAgo: "10 months ago",
+      timeAgo: "8 months ago",
       rating: 5,
-      text: "Amazing people and amazing work. Came to my house a day later and explained everything on how my new AC works. Also showed me how the new thermostat w ...",
+      text: "Amazing people and excellent service! They came the very next day, explained how my new AC works, and even walked me through the thermostat. Couldn’t ask for a better experience...",
       avatar: "/assets/images/testimonials/jessie.jpg",
       verified: true
     },
     {
       id: 3,
       name: "Adam Steele",
-      timeAgo: "10 months ago",
+      timeAgo: "7 months ago",
       rating: 5,
-      text: "Cozy bros is very affordable. They're very flexible with scheduling and knowledgeable when asked questions. If I ever have similar problems in the fut ...",
+      text: "The Cozy Bros team is knowledgeable and easy to work with. They helped troubleshoot my issue quickly and made the whole process stress-free. Highly recommend!",
       avatar: "/assets/images/testimonials/adam.jpg",
       verified: false
     },
     {
       id: 4,
       name: "Joanne Gme...",
-      timeAgo: "10 months ago",
+      timeAgo: "6 months ago",
       rating: 5,
-      text: "Excellent company to do business with! Ahmed communicated well as far as setting and keeping the appointment. He arrived on time and explained everyth ...",
+      text: "Excellent company to do business with! Ahmed was professional, communicated clearly, and kept the appointment on time. He explained everything thoroughly and made the process simple.",
       avatar: "/assets/images/testimonials/joanne.jpg",
       verified: false
     }
@@ -61,9 +61,9 @@ const Testimonial = () => {
               marginTop: '25px',
               paddingLeft: '20px'
             }}>
-              In today's economic climate, affordable pricing is key! We got you. Honesty and
-              integrity go a long way in this business and we are dedicated to earning your trust
-              and giving you and your family the best customer experience possible.
+              At Cozy Bros, we believe every customer deserves fair pricing, honest service,
+               and dependable results. With years of experience and a commitment to integrity, 
+              we work hard to earn your trust and provide your family with the best comfort solutions possible.
             </p>
           </div>
           <div className="col-lg-1 d-flex justify-content-end align-items-start" style={{ marginTop: '25px' }}>

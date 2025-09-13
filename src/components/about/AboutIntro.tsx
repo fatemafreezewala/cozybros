@@ -5,17 +5,15 @@ const AboutIntro = () => {
                 <div className="row">
                     <div className="col-md-12 col-xl-6">
                         <div className="pbmit-heading-subheading animation-style2">
-                            <h4 className="pbmit-subtitle">Why choose us?</h4>
-                            <h2 className="pbmit-title">Most awarded cleaning company since 1995.</h2>
+                            <h4 className="pbmit-subtitle">OUR STORY</h4>
+                            <h2 className="pbmit-title">Where big company knowledge meets hometown service.</h2>
                         </div>
                     </div>
                     <div className="col-md-12 col-xl-6">
                         <p className="pbmit-text-editor">
-                            We carefully screen all of our cleaners, so you can rest assured that your home would receive the absolute highest quality of service providing. Shall under In yielding saying given dominion don’t of two god which said. Morning greater Lesser day given fruitful.
+                            Hi, I’m Ahmed. I live with my wonderful family in Lake View, NY. I’ve worked in the HVAC industry for many years and have loved helping families and customers with their comfort needs. What I value most is building trust and genuine connections. After years of working in big companies with high pressure, quotas, and pushy sales tactics, I decided to focus on offering honest, customer-first service.
                         </p>
-                        <p className="pbmit-text-editor pb-4">
-                            Shall under In yielding saying given dominion don’t of to two god which said. Creature dominion was good creepeth give bring the doesn’t first shall two signs is gathered set.
-                        </p>
+
                         <div className="row g-0 align-items-center">
                             <div className="col-md-12 col-xl-6">
                                 <div className="pbmit-ihbox-style-4">
@@ -28,7 +26,7 @@ const AboutIntro = () => {
                                         <div className="pbmit-ihbox-contents">
                                             <h4 className="pbmit-element-subtitle">Call Us Anytime</h4>
                                             <h2 className="pbmit-element-title">
-                                                <a href="tel:+1(212)-255-511"><span className="pbmit-button-text">+ 1(212) 255-511</span></a>
+                                                <a href="tel:+1(212)-255-511"><span className="pbmit-button-text">+1 716-289-5986</span></a>
                                             </h2>
                                         </div>
                                     </div>

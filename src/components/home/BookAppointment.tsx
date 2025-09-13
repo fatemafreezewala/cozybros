@@ -8,7 +8,7 @@ const BookAppointment = () => {
             <div className='col-md-12 col-xl-8'>
               <div className='pbmit-heading-subheading white-text mb-3 animation-style4'>
                 <h2 className='pbmit-title'>
-                  First Time Customers Get a Free Heating & Cooling Inspection
+                  Welcome offer: No-cost HVAC inspection for first-time customers.
                 </h2>
               </div>
               <a
@@ -64,7 +64,7 @@ const BookAppointment = () => {
                       <h2 className='pbmit-element-title'>
                         <a href='tel:+125-8845-5421'>
                           <span className='pbmit-button-text'>
-                            +125-8845-5421
+                            +1 716-289-5986
                           </span>
                         </a>
                       </h2>
@@ -131,9 +131,7 @@ const BookAppointment = () => {
                       lineHeight: '1.7',
                     }}
                   >
-                    Don't let the big box companies fool you, we can honestly
-                    work and troubleshoot right away 70% of the time without
-                    breaking your system.
+                    Having trouble with your furnace or AC? We’ll diagnose and fix most issues quickly and honestly—without the hassle or unnecessary costs.
                   </p>
                 </div>
               </div>
@@ -172,9 +170,8 @@ const BookAppointment = () => {
                       lineHeight: '1.7',
                     }}
                   >
-                    We install top quality energy efficient units from trusted
-                    brands. Not only do we offer planning for staying cost
-                    effective.
+                    We install high-quality, energy-efficient systems from trusted brands. 
+                    Our goal is to give you comfort while keeping costs affordable.
                   </p>
                 </div>
               </div>
@@ -213,9 +210,8 @@ const BookAppointment = () => {
                       lineHeight: '1.7',
                     }}
                   >
-                    Keep up your system and get the most out of it. We offer
-                    affordable air conditioning and furnace maintenance
-                    services.
+                    Regular maintenance keeps your system running longer and more efficiently. 
+                    We provide affordable tune-ups for air conditioning and heating systems.
                   </p>
                 </div>
               </div>

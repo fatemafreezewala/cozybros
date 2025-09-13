@@ -171,11 +171,10 @@ export default function Header() {
                           Needs Professional Cleaning
                         </h5>
                         <h2 className='pbmit-title transform-left transform-delay-2'>
-                          Let Us Do Your <br /> Dirty Work
+                          Your Comfort, <br /> Our Priority
                         </h2>
                         <p className='pbmit-desc transform-bottom transform-delay-3'>
-                          Hire us! We are a professional cleaning company
-                          offering services.
+                         We provide heating, cooling, and plumbing services to keep your home comfortable all year round.
                         </p>
                         <div className='pbmit-button transform-bottom transform-delay-4'>
                           <a

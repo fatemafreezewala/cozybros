@@ -234,7 +234,7 @@ const OurServices = () => {
               letterSpacing: 0.2,
             }}
           >
-            <h2>Cozy Bros – Heating & Cooling Services for Comfort All Year Round</h2>
+            <h2>Cozy Bros – Expert Heating & Cooling Solutions All Year Long</h2>
           </div>
 
           {/* Description */}
@@ -248,55 +248,47 @@ const OurServices = () => {
               letterSpacing: 0.01,
             }}
           >
-            At Cozy Bros, we know that a comfortable indoor environment fuels
-            productivity, boosts moods, and makes every space more welcoming.
-            Whether at home or in the office, a well-maintained heating and
-            cooling system is essential for health, safety, and satisfaction.
+            At Cozy Bros, we believe comfort is more than a luxury—it’s a necessity.
+            A well-maintained heating and cooling system keeps your home or workplace welcoming,
+            boosts productivity, and supports healthier living.
             <br />
             <br />
-            A reliable HVAC system isn't just about comfort—it's about
-            efficiency, air quality, and peace of mind. That's why having a
-            comprehensive heating and cooling service plan is so important.
+           Reliable HVAC isn’t just about temperature control. 
+           It’s about efficiency, air quality, and peace of mind. 
+           That’s why we offer comprehensive service plans designed to keep your systems running smoothly year-round..
             <br />
             <br />
-            Choosing the right HVAC provider can feel overwhelming, but with Cozy
-            Bros, you get a one-stop solution for all your heating and cooling
-            needs. From installation to repair, we keep your systems running at
-            their best—helping you save money, stay comfortable, and enjoy cleaner
-            air, every day.
+            Choosing the right provider can feel overwhelming—but with Cozy Bros, 
+            you get a trusted partner for all your heating and cooling needs. 
+            From installation to repairs and maintenance, we deliver solutions that save you money, 
+            improve comfort, and ensure cleaner, healthier air every day.
           </div>
           <h5>Our Heating & Cooling Services</h5>
           {/* Highlights + Images in grid (one-to-one) */}
-          <div
-            className="row g-4" style={{ marginTop: 8 }}
-          >
+          <div className="row g-4 align-items-stretch" style={{ marginTop: 8 }}>
             {HIGHLIGHTS.map((card: any) => (
-              <div
-                key={card.title}
-                className="col-lg-4 col-sm-12"
-              >
+              <div key={card.title} className="col-md-6 col-lg-4 d-flex">
                 {/* Card */}
-                <div
-                  style={{
-                    width: "100%",
-                    background: "#fff",
-                    borderRadius: 14,
-                    boxShadow: "0 2px 8px rgba(27,183,110,0.07)",
-                    padding: "16px 20px",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 12,
-                    fontWeight: 700,
-                    fontSize: 16,
-                    border: "1px solid #e6eaf0",
-                    justifyContent: "center",
-                  }}
-                >
-                  <span style={{ fontSize: 22 }}>{card.icon}</span>
-                  <span style={{ color: "#222" }}>{card.title}</span>
+                <div className="card h-100 w-100 border-0 shadow-sm">
+                  <div className="card-body d-flex flex-column align-items-center justify-content-center p-4" style={{ minHeight: "220px" }}>
+                    {/* Example image placeholder, replace with actual image if available */}
+                    <img
+                      src={`/assets/images/Home/${card.title.replace(/\s+/g, '')}.svg`}
+                      alt={card.title}
+                      style={{
+                        width: "100%",
+                        maxWidth: "120px",
+                        height: "120px",
+                        objectFit: "cover",
+                        borderRadius: "12px",
+                        marginBottom: "18px"
+                      }}
+                      onError={e => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                    />
+                    <span style={{ color: "#222", fontWeight: 700, fontSize: 18, marginBottom: 8 }}>{card.title}</span>
+                    <span style={{ fontSize: 32 }}>{card.icon}</span>
+                  </div>
                 </div>
-
-
               </div>
             ))}
           </div>

@@ -50,7 +50,7 @@
 }
 
 .pbmit-heading-subheading .pbmit-subtitle:before {
-	content: "\e820";
+	/* content: "\e820";
 	font-family: 'pbminfotech-base-icons';
 	position: absolute;
 	left: 0;
@@ -58,7 +58,7 @@
 	font-size: 16px;
 	line-height: 16px;
 	font-weight: 400;
-	color: var(--pbmit-global-color);
+	color: var(--pbmit-global-color); */
 }
 
 .pbmit-heading-subheading .pbmit-title {
